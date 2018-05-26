@@ -1,0 +1,22 @@
+{
+  "name": "consumerNotification",
+  "version": "1.0.0",
+  "description": "Module to subscribe records from the queue.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "githib",
+    "url": "consumerNotification"
+  },
+  "author": "Harshit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "~1.6.2",
+    "async": "1.3.0",
+    "request": "2.58.0",
+    "node-uuid": "^1.4.3",
+    "bunyan": "^1.4.0"
+  }
+}
